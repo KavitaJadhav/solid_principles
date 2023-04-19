@@ -1,0 +1,35 @@
+Dependency inversion
+
+Classes should depend upon interfaces or abstract classes instead of concrete classes and functions
+
+Application -> connect to db(mysql/oracle)
+MySqlDB
+OracleDB
+
+DBConnection - class (interface/mediator between application and database )
+DBConnection class will create db instance based on input from Application class
+
+--------------------------------------------------------------------------------------------------
+create and store person object in db
+
+Person
+-prepare attributes(initialise)
+-connect to db
+-save object in db
+
+
+Person Class
+-prepare attributes(initialise)
+
+PersonRepository(mediator)
+-connect to db
+
+DB class
+-save object in db
+
+--------------------------------------------------------------------------------------------------
+Api service 1 class api service 2
+
+ApiService1 - callService2
+Async Queue - callService2 async
+ApiService1 - process call

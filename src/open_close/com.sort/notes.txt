@@ -1,0 +1,6 @@
+classes should be open for extension and closed to modification.
+
+We should be able to add new functionality/behaviour without touching the existing code for the class
+
+Sort Algo classes
+Create new class for each algo, so you can easily add new sort also by just adding a new class file

@@ -1,0 +1,7 @@
+
+Liskov substitute principle -
+Object of chile class should be replaceable wih object of parent class(i.e. subclasses should be substitutable for their base classes.)
+
+Vehicle v = PetrolCar P
+Vehicle v = DieselCar d
+

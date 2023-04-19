@@ -1,0 +1,14 @@
+Interface segregation
+Segregation means keeping things separated
+
+Create different interfaces for logically separate operations.
+Many client-specific interfaces are better than one general-purpose interface.
+
+IMP: Clients should not be forced to implement a function they do no need.
+
+
+flyable
+walkable
+
+Human -  implements walkable
+Bird  - implements flyable, flyable
