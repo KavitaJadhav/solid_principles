@@ -11,4 +11,4 @@ flyable
 walkable
 
 Human -  implements walkable
-Bird  - implements flyable, flyable
+Bird  - implements flyable, walkable
